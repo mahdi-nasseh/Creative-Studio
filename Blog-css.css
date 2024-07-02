@@ -1,0 +1,123 @@
+
+.blog-up-title1{
+    font-size: 20px;
+}
+.blog-up-title2{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.card {
+    max-width: 400px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+  }
+  
+  .card a {
+    text-decoration: none
+  }
+  
+  .content {
+    padding: 1.1rem;
+  }
+  
+  .image-card-1 {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+    background-image:url(assets/imgs/blog-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:  5px -5px 10px #d5d5d5,
+                 -5px 5px 10px #ebebeb;
+
+  }
+  .image-card-2 {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+    background-image:url(assets/imgs/blog-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:  5px -5px 10px #d5d5d5,
+                 -5px 5px 10px #ebebeb;
+
+  }
+  .image-card-3 {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+    background-image:url(assets/imgs/blog-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:  5px -5px 10px #d5d5d5,
+                 -5px 5px 10px #ebebeb;
+
+  }
+  
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color:#ff231f93;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+
+  .card-icon{
+    color: gray;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    margin-left: 20px;
+}
+  .card-icon-title{
+    color: gray;
+    font-size: 15px;
+    width: 50px;
+  }
+  .icon-box{
+    display: flex;
+  }
+.icon-main-box{
+    display: flex;
+    margin-left: 90px;
+}
+.blog-down-title{
+    display: flex;
+    justify-content: space-between;
+}
