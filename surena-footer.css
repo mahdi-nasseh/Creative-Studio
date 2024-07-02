@@ -1,0 +1,13 @@
+.footer-surena{
+    background-color: rgb(42, 41, 41) ;
+    display: flex;
+}
+.header3-surena{
+color: rgb(87, 87, 87);
+}
+*{
+    color: white;
+}
+.img-logo{
+    width: 50px;
+}
