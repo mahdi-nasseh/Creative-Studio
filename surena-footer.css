@@ -1,12 +1,14 @@
 .footer-surena{
-    background-color: rgb(42, 41, 41) ;
     display: flex;
+    margin-top: 12%;
 }
 .header3-surena h3{
 color: rgb(133, 133, 133);
 }
 *{
     color: white;
+    text-align: left;
+    background-color: rgb(42, 41, 41) ;
 }
 .img-logo{
     width: 50px;
@@ -15,4 +17,8 @@ color: rgb(133, 133, 133);
     background-color: transparent;
     width: 35px;
     margin: 10px;
+}
+.footer2-surena{
+    display: flex;
+    justify-content: space-between;
 }
