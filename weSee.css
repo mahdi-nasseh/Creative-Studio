@@ -1,0 +1,62 @@
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .container div {
+    position: relative;
+  }
+  
+  .body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .items{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/imgs/developers_back.jpg); 
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 80vh;
+    
+  }
+  .weSee_paragraph{
+    text-align: center;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #100f28;
+    margin-top: 32px;
+    
+  }
+
+  .weSee_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: bottom;
+  }
+  
+  .icon{
+    font-size:120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(31, 21, 1);
+    
+  }
+
+  
+  
